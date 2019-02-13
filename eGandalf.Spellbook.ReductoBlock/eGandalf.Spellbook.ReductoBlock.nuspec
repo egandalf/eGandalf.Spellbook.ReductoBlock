@@ -1,0 +1,24 @@
+<package >
+  <metadata>
+    <id>eGandalf.Spellbook.ReductoBlock</id>
+    <version>0.9.0-beta</version>
+    <authors>James Stout (@egandalf)</authors>
+    <owners>Episerver</owners>
+    <projectUrl>https://github.com/egandalf/eGandalf.Spellbook.ReductoBlock</projectUrl>
+    <iconUrl>http://2.bp.blogspot.com/-XP05TFuM8_o/V__1KyDB5mI/AAAAAAAAH0c/ltOfeZjaDjQqNB0YEvSARWl6ZGQjdk7ugCK4B/s80/egandalf.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A block spell that destroys all blocks in its path!</description>
+    <summary>Adds a new Block Type to Episerver projects. Place the block into a ContentArea and all preceeding blocks will be removed from the content.</summary>
+    <releaseNotes>Early, test, beta. All that at-your-own-risk stuff.</releaseNotes>
+    <copyright>Copyright 2019</copyright>
+    <tags>EPiServerModulePackage Block</tags>
+    <dependencies>
+      <dependency id="EPiServer.CMS.AspNet" version="[11.1.0, 12.0.0)" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin/$configuration$/eGandalf.Spellbook.ReductoBlock.dll" target="lib\net462" />
+    <file src="eGandalf.Spellbook.ReductoBlock.zip" target="content\modules\_protected\eGandalf.Spellbook.ReductoBlock\" />
+    <file src="module.config" target="content\modules\_protected\eGandalf.Spellbook.ReductoBlock\"/>
+  </files>
+</package>
